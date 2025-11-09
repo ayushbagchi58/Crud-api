@@ -3,7 +3,7 @@ const express=require('express')
 const app=express()
 const ejs=require('ejs')
 const path=require('path')
-const connectDB=require('./config/db');
+const connectDB=require('./app/config/db');
 
 
 connectDB()
